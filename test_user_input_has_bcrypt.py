@@ -19,7 +19,6 @@ else:
 class TestPassUser(unittest.TestCase):
 
     def test_username(self):
-        self.assertEqual('Justin',name)
         self.assertTrue(user_name,hash_user_name)
 
     def test_password(self):
