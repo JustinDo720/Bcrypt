@@ -8,7 +8,7 @@ name = input('Please enter your Name:')
 user_name = input('Please enter your Username:')
 password = input('Please enter your Password:')
 
-sleep(3)
+sleep(2)
 
 print(f'''\nHello {name}, your original username and password are as follows:
 {user_name}
@@ -21,7 +21,7 @@ salt = gensalt()
 hash_user_name = hashpw(user_name,salt)
 hash_user_password = hashpw(password,salt)
 
-sleep(3)
+sleep(2)
 
 print(f'''\nYour hashed username and password are as:
 Username:{hash_user_name}
